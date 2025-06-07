@@ -3,5 +3,5 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 .button {
-    @apply bg-blue-500 rounded-md p-2 text-white;
+    @apply bg-blue-500 rounded-md p-2 text-white hover:bg-blue-600;
 }
